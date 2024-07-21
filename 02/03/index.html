@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <form>
+        <h1 >
+            TICKETS ONLINE
+        </h1>
+        <div>
+            <input type="radio" name="delivery" id="Return">
+            <p>
+                <label for="Return">Return</label>
+            </p>
+            <input type="radio" name="delivery" id="One-way">
+            <p>
+                <label for="One-way">One-way</label>
+            </p>
+        </div>
+        <div>
+            <p>
+                 <label for="FROM">FROM</label>
+            </p>
+            <input type="text" name="FROM" id="FROM">
+            <p>
+                <label for="TO">TO</label>
+            </p>
+            <input type="text" name="TO" id="TO">
+        </div>
+        <div>
+            <p>
+                <label for="Take me anywhere">Take me anywhere</label>
+            </p>
+            <input type="checkbox" name="" id="Take me anywhere">
+        </div>
+        <div>
+            <p>
+                <label for="Depart Soonest ON">Depart Soonest ON</label>
+            </p>
+            <input type="datetime-local" name="" id="Depart Soonest ON">
+        </div>
+        <div>
+            <p>
+                <label for="Return Latest ON">Return Latest ON</label>
+            </p>
+            <input type="datetime-local" name="" id="Return Latest ON">
+        </div>
+        
+        <h3>
+            Travellers:
+        </h3>
+            <p>
+             Adult
+            <select name="Adult" id="Adult">
+                <option value="0">0</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+            </select>
+           </p>
+            <p>
+                Child
+                <select name="Child" id="Child">
+                    <option value="0">0</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                </select>
+            </p>
+            <p>
+                Infant
+                <select name="Child" id="Child">
+                    <option value="0">0</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                </select>
+            </p>
+            <div>
+                <p>
+                    I Dont Mind At The Airoport Overnight(next flight can be next day)
+                </p>
+                <input type="checkbox" name="" id="">
+            </div>
+            <hr>
+            <div>
+                <p>
+                    <label for="Fist name">Fist name</label>
+                    <input type="text" name="Fist name" id="Fist name">
+             </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Last name">Last name</label>
+                    <input  type="text" name="Last name" id="Last name">
+             </p>
+            </div>
+            <div>
+                <p>
+                    <label for="Email">Email</label>
+                    <input placeholder="example@gmail.com" type="email" name="" id="">
+                </p>
+                <p>
+                   <label for="Phone number">Phone number</label>
+                    <input placeholder="+48 (xxx)xxx-xxx" type="number" name="" id="">
+                </p>
+                
+                
+            </div>
+            <hr>
+           <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+           </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+h1 , h3 {font-style: italic;
+         padding: 50px;
+         color: rgb(242, 250, 25);
+         background-color: blueviolet;}
+p 
+        {color: rgb(104, 5, 226);
+         }
+:enabled
+         {color: rgb(7, 15, 255);
+         background-color: aqua;}
