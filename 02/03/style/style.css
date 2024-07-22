@@ -3,8 +3,9 @@ h1 , h3 {font-style: italic;
          color: rgb(242, 250, 25);
          background-color: blueviolet;}
 p 
-        {color: rgb(104, 5, 226);
-         }
-:enabled
+        {color: rgb(104, 5, 226)
+         background-color: aqua;}
+
+ :enabled
          {color: rgb(7, 15, 255);
          background-color: aqua;}
