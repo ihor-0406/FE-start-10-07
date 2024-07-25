@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: peachpuff;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+    font-size: 16px;
+}
+.content{
+    margin: 50px auto;
+    width: 350px;
+    background-color: white;
+    padding: 25px 24px 91px 24px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+    
+}
+button{
+    border: none;
+    background-color: transparent;   
+}
+.caption{
+    margin-bottom: 18px;
+    margin-top: 23px;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+}
+.menu{
+   margin-bottom: 17px;
+   margin-top: 23px;
+   margin-left:10px ;
+}
+.menu-food{
+    font-size: 50px;
+    margin: 0px auto 0px 10px;
+}
+header input{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    background:#e5e5df;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 29px;
+}
+header input{
+    color: black;
+}
+.menu-central{
+    font-size: 0;
+}
+.block-food{display:inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.block-food:last-child{
+    margin-right: 0;
+}
+h4{margin: 5px;
+    align-items: center;
+}
+.image-food{border-radius: 12px;
+    padding: 18px;
+    background-color: rgb(212, 209, 192);
+    line-height: 18px;
+    }
+.image-food:hover{
+    background-color: rgb(238, 188, 95);
+    filter:drop-shadow(5px 5px 4px grey)
+}
+.image-food h4 {
+    margin: 8px 0;
+    font-size: 500;
+    line-height: 19px;
+}
+h3{
+    margin-top: 24px;
+    margin-bottom: 26px;
+    color:rgb (0, 48, 73) ;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px
+}
+.menu-burgers{
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    background: white;
+    box-shadow: 0px 0px 4px 0px rgb(230, 230, 230);
+}
+.menu-burgers :last-child{
+    margin-bottom: 0;
+}
+.menu-burgers:hover{
+    background-color: rgb(240, 229, 208);
+    filter:drop-shadow(5px 5px 4px grey)
+ }
+.image-burgers, .burger{
+    display: inline-block;
+    vertical-align: middle;
+}
+.burger{
+    margin-top: -60px;
+    padding-left: 15px;
+}
+.burger h4{
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: rgb(0, 48, 73);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+h6{
+    margin: 0;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
