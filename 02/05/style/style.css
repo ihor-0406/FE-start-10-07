@@ -1,0 +1,106 @@
+body{
+    background-color: grey;
+}
+.relative{
+    position: relative;
+}
+.one-block{
+    position: absolute;
+    background: black;
+    width: 250px;
+    height: 250px;
+    left: 150px;
+    top: 30px;
+}
+.one-block img{
+    margin-top: 65px;
+    margin-left: 40px;
+}
+.miniflag{
+    background:linear-gradient(
+        rgb(33, 55, 252) 50%,
+        rgb(255, 216, 75)50%);
+    width: 40px;
+    height:30px ;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 4px
+}
+.two-block{
+    position: absolute;
+    background:linear-gradient(
+        rgb(33, 55, 252) 50%,
+        rgb(255, 216, 75)50%);
+    width: 250px;
+    height: 250px;
+    left: 360px;
+    top:200px;
+    z-index: 2;
+}
+.two-block img{
+    margin-top:62px;
+    margin-left: 25px;
+}
+.three-block{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    left: 570px;
+    top:400px;
+    border-bottom:2px solid blue ;
+    border-top: 2px solid blue;
+    filter: drop-shadow(2px 8px 5px rgb(191, 189, 189));
+}
+.flag{
+    background:linear-gradient(
+        rgb(33, 55, 252) 50%,
+        rgb(255, 216, 75)50%);
+        width: 220px;
+        height: 220px;
+        border-radius: 120px;
+        margin-top: 16px;
+        margin-left: 14px;
+}
+.triangle-rigth{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 12px;
+    border-color:transparent transparent transparent rgb(33, 55, 252);
+    margin-top: -119px;
+    margin-left: 160px;
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 12px 10px;
+    border-color:transparent transparent transparent rgb(33, 55, 252);
+    margin-top: -19px ;
+    margin-left: 70px;
+}
+.triangleleftyellow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 10px 25px 0px;
+    border-color:transparent  rgb(255, 216, 75) transparent transparent;
+    margin-top: -28px ;
+    margin-left: 95px;
+}
+.triangle-rigth-yellow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 12px 10px 0px;
+    border-color:transparent  rgb(255, 216, 75) transparent transparent;
+    margin-top: -44px ;
+    margin-left: 128px;
+
+}
+.three-block img{
+    margin-left: 27px;
+    margin-top: -20px;
+}
+
