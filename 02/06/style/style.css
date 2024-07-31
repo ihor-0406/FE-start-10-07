@@ -13,7 +13,7 @@ article{
     width: 1440px;
     padding-top: 119px;
     padding-right: 116px;
-    padding-left: 193px;
+    padding-left: 190px;
     padding-bottom: 119px;
 }
 .title{
@@ -21,108 +21,88 @@ article{
     min-height: 342px;
     font-size:64px;
 }
+.oneblock{
+    display: inline-flex;
+    padding: 30px avto;
+    width: 1131px;
+    font-size: 24px;
+}
+.onearticle{
+    width: 745px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+.block{
+    position: relative;
+    min-width: 330px;
+    margin-top: 30px;
+    padding-right: 0px;
+}
 .quote{
-    display: inline-block;
-    text-align: center;
     background-color: rgb(217, 217, 217);
     width: 330px;
     border-radius: 30px;
-    padding: 5px;
-    margin-right: 956px;
-    margin-top: 100px;
-    font-size: 24px;
+    padding: 20px;
 }
 .authorquote{
-   margin-top:-70px ;
-   margin-left: 96px;
+    margin-left: 100px;
 }
 .quote img{
-    margin-left: -150px;
-    margin-bottom: 20px;
+    position: absolute;
+    bottom: 240px;
 }
-
 .sheaker{
-    width: 225px;
-    height: 225px;
-    margin-left: 40px;
+    position: absolute;
+    top: 230px;
+    left: 50px;
 }
-.sneakersevents{
-    width: 745px; ;
-    min-height: 315px; ;
-    margin-top: -440px;
-    margin-left: 400px;
-    font-size: 24px;
-}
-.history{
-    width: 745px;
-    margin-top: 99px;
-    font-size: 24px;
-}
-.sheakers{
-    margin-top: -400px;
-    margin-left:800px;
+.onesheaker{
+    position: absolute;
+    bottom: 120px;
 }
 .minisheaker{
-    margin-top: -10px;
+    position: absolute;
+    top: 265px;
+    left: 0px;
 }
 .threesheaker{
-    margin-top:-250px;
-    margin-left: 160px;
-}
-.imagesheakers{
-    margin-top:-52px;
-}
-.imageminisheaker{
-    margin-left: 145px;
-}
-.twohistory{
-    width: 700px;
-    margin-top: -350px;
-    margin-left: 400px;
-    font-size: 24px;
-}
-.threehistory{
-    width: 749px;
-    font-size: 24px;
-}
-.quotetwo{
-    background-color: rgb(217, 217, 217);
-    width: 340px;
-    border-radius: 30px;
-    padding: 20px;
-    margin-top: -350px;
-    margin-left: 800px;
-    font-size: 24px;
-}
-.quotetwo img{
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-.imagesheakersone{
-    margin-left: 750px;
-}
-.imagesheakerstwo{
-    margin-top: -170px;
-    margin-left: 930px;
-}
-.quotethree{
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(217, 217, 217);
-    width: 340px;
-    border-radius: 30px;
-    padding: 20px;
-    font-size: 24px;
-}
-.quotethree img{
-    margin-top: -120px;
-    margin-left: 240px ;
-    margin-bottom: -20px;
-}
-.quotetfakt{
-    margin-bottom: -40px;
+    position: absolute;
+    top: 130px;
+    left: 120px;
 }
 .imgsheaker{
-    margin-top: -200px;
-    margin-left: 30px;
+    position: absolute;
+    left: 40px;
+}
+.imgtwosheaker{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+.twoarticle{
+    margin-left: 400px;
+}
+.imagequote{
+    position: absolute;
+    top: 210px;
+    left: 40px;
+}
+.imagesheakerstwo{
+    position: absolute;
+    top: 280px;
+    left: 120px;
+}
+.imagesheakersone{
+    position: absolute;
+    top: 310px;
+    right: 250px;
+}
+.ligth{
+    position: absolute;
+    top: 40px;
+    left: 220px;
+}
+.image-sheaker{
+    position: absolute;
+    left: 20px;
 }
