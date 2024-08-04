@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url('../image/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal ;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95,5%;
+    padding-top: 43px;
+    padding-left: 45px;
+    padding-right: 33px;
+    padding-bottom: 120px;
+    color: rgb(200, 200, 200);
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.imglogo{
+    margin-top: 27px;
+    padding-left: 45px;
+}
+.greytekst{
+    display: inline-block;
+    text-align: center;
+    padding-left: 26px;
+    margin-left: 52px;
+    border-left: 3px solid white;
+}
+.imgandavatar{
+    display: inline-flex;
+    align-items: center;
+}
+.search{
+    width: 43px;
+    height: 43px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    margin-right: 45px;
+}
+.search:hover{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(254, 250, 250, 0);
+}
+.avatar:hover{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.type{
+    display: inline-block;
+    text-align: center;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-left: 3px solid white;
+    font-size: 32px;
+    color: rgb(255, 255, 255); 
+}
+section{
+    width: 66.36%;
+    padding-left: 45px;   
+}
+.textsection{
+    padding-left: 45px;
+    color: white;
+}
+.desc{
+    font-size: 24px;
+    color:rgb(167, 166, 166);
+    padding-bottom: 53px;
+}
+section h1{
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    padding-top: 64px;
+}
+.typeserial{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.typeserial h2{
+    margin-right: 10px;
+}
+.typeserial span{
+    color: rgb(167, 166, 166);
+    padding-left: 10px;
+}
+.cointainerstars{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-bottom: 54px;
+}
+.cointainerstars i{
+    font-size: 40px;
+    padding: 10px;
+}
+.star i:hover{
+    border: 3px solid transparent;
+}
+.iconbutton{
+    padding-left: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 41.24%;
+    height: 70px;
+}
+.iconbutton button{
+    padding: 20px 60px;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    line-height: 25px;
+}
+.iconbutton button i{
+    padding-left: 10px;
+}
+.iconbutton button:hover{
+    background-color: red;
+}
+.box{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 54.51%;
+    color: white;
+    font-size: 22px;
+    padding-top: 54px;
+    padding-left: 45px;
+}
+.arrows{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-basis: 200px;  
+    align-items: center;
+    padding-left: 20px;
+}
+.arrows i {
+    padding: 30px 20px;
+    border: 5px solid gray;
+    border-radius: 80px;
+    background-color: transparent;
+}
+.arrows i:hover{
+    border: 5px solid white;
+}
+.catalog{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54.91%;
+    padding-top: 32px;
+    padding-left: 45px;
+
+}
+.film:hover{
+    border: 5px solid white;
+}
+.ratiogblock{
+    position: fixed;
+    display: inline-flex;
+    bottom: 103px;
+    right: 0;
+}
+.red{
+    background-color: rgb(213, 13, 31);
+    width: 33px;
+    height: 66px;
+}
+.rating{
+    background-color: rgba(255, 255, 255, 0.49);
+    width: 174px;
+    height: 66px;
+}
+.rating h2{
+    color: white;
+    font-size: 24px;
+    margin: 15px 33px 14px 26px;
+    
+}
