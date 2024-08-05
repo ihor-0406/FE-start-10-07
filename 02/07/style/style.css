@@ -12,15 +12,16 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal ;
+    padding-left: 45px;
 }
 header {
     display: flex;
     justify-content: space-between;
     width: 95,5%;
     padding-top: 43px;
-    padding-left: 45px;
+    /* padding-left: 45px; */
     padding-right: 33px;
-    padding-bottom: 120px;
+    padding-bottom: 116px;
     color: rgb(200, 200, 200);
 
 }
@@ -30,14 +31,14 @@ header {
     font-size: 24px;
 }
 .imglogo{
-    margin-top: 27px;
-    padding-left: 45px;
+    margin-top: 28px;
+    /* padding-left: 45px; */
 }
 .greytekst{
     display: inline-block;
     text-align: center;
-    padding-left: 26px;
-    margin-left: 52px;
+    padding-left: 23px;
+    margin-left: 18px;
     border-left: 3px solid white;
 }
 .imgandavatar{
@@ -63,18 +64,27 @@ header {
 .type{
     display: inline-block;
     text-align: center;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 23px;
+    padding-right: 23px;
     border-left: 3px solid white;
     font-size: 32px;
     color: rgb(255, 255, 255); 
 }
 section{
     width: 66.36%;
-    padding-left: 45px;   
+    /* padding-left: 45px; */
+    min-height: 361px;
+}   
+.caption h2{
+    font-size: 32px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255); 
+}
+.drama{
+    padding-right: 23px;
 }
 .textsection{
-    padding-left: 45px;
+    /* padding-left: 45px; */
     color: white;
 }
 .desc{
@@ -85,7 +95,6 @@ section{
 section h1{
     font-size: 64px;
     color: rgb(255, 255, 255);
-    padding-top: 64px;
 }
 .typeserial{
     display: inline-flex;
@@ -104,7 +113,7 @@ section h1{
 .cointainerstars{
     display: inline-flex;
     justify-content: space-between;
-    padding-left: 45px;
+    /* padding-left: 45px; */
     padding-bottom: 54px;
 }
 .cointainerstars i{
@@ -115,7 +124,7 @@ section h1{
     border: 3px solid transparent;
 }
 .iconbutton{
-    padding-left: 45px;
+    /* padding-left: 45px; */
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
@@ -148,32 +157,42 @@ section h1{
     color: white;
     font-size: 22px;
     padding-top: 54px;
-    padding-left: 45px;
+    /* padding-left: 45px; */
 }
 .arrows{
     display: inline-flex;
     justify-content: space-between;
-    flex-basis: 200px;  
+    flex-basis: 110px;
     align-items: center;
-    padding-left: 20px;
+    
 }
 .arrows i {
-    padding: 30px 20px;
-    border: 5px solid gray;
-    border-radius: 80px;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 12px ;
+    border: 3px solid gray;
+    border-radius: 30px;
     background-color: transparent;
+    width: 40px;
+    height: 40px;
 }
 .arrows i:hover{
     border: 5px solid white;
 }
 .catalog{
     display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
     width: 54.91%;
     padding-top: 32px;
-    padding-left: 45px;
-
+    /* padding-left: 45px; */
+}
+.film{
+    width: 15.4;
+    margin-right: 50px;
+}
+.film i{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 .film:hover{
     border: 5px solid white;
