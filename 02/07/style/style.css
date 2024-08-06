@@ -8,11 +8,29 @@ body {
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
-    font-family: "Inter Tight", sans-serif;
+    /* font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal ;
+    font-style: normal ; */
     padding-left: 45px;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-medium {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.inter-extra {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 header {
     display: flex;
@@ -113,7 +131,6 @@ section h1{
 .cointainerstars{
     display: inline-flex;
     justify-content: space-between;
-    /* padding-left: 45px; */
     padding-bottom: 54px;
 }
 .cointainerstars i{
@@ -124,14 +141,15 @@ section h1{
     border: 3px solid transparent;
 }
 .iconbutton{
-    /* padding-left: 45px; */
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
     justify-content: space-between;
     width: 41.24%;
 }
 .iconbutton button{
-    padding: 20px 60px;
+    width: 272px;
+    height: 64px;
+    padding-left: 20px;
+    margin-right: 10px;
     font-size: 22px;
     color: white;
     border-radius: 10px;
@@ -145,7 +163,7 @@ section h1{
     align-items: center;
 }
 .iconbutton button i{
-    padding-left: 10px;
+    padding-left: 20px;
 }
 .iconbutton button:hover{
     background-color: red;
@@ -180,17 +198,14 @@ section h1{
     border: 5px solid white;
 }
 .catalog{
-    display: inline-flex;
-    width: 54.91%;
+    display: flex;
     padding-top: 32px;
-    /* padding-left: 45px; */
 }
 .film{
-    width: 15.4;
+    width: 20%;
     margin-right: 50px;
 }
 .film i{
-    width: 100%;
     display: inline-block;
     text-align: center;
 }
