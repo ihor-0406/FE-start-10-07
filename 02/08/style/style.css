@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     background-image: url('../image/Rectangle\ 1.png');
@@ -6,10 +8,6 @@ body {
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
-    /* font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal ; */
     padding-left: 45px;
 }
 .inter-regular {
@@ -232,3 +230,74 @@ section h1{
     margin: 15px 33px 14px 26px;
     
 }
+@media (max-width:435px){
+    body{
+        padding: 5px;
+
+    }
+    header{
+        padding-top: 2.5rem;
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+        flex-direction: column;
+    }
+    .data{
+        font-size: 16px;
+    }
+    .imgandavatar{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .caption{
+        display: inline-block;
+        text-align: center;
+        width: 150%;
+    }
+    .typeserial{
+        width: 150%;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .desc{
+        width: 150%;
+        font-size: 0.9rem;
+        padding-bottom: 20px;
+    }
+    .cointainerstars{
+        width: 150%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .iconbutton{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box{
+        font-size:1.5rem;
+        width: 140%;
+        justify-content: space-between;
+    }
+    .catalog{
+        width: 150%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .ratiogblock{
+        padding: 0;
+        bottom: 0px;
+        right: 0px ;
+    }
+    .rating{
+        width: 4.6rem;
+    }
+    .red{
+        width: 0.2rem;
+    }
+    }
+
+   
+
