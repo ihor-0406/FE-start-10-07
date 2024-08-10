@@ -189,10 +189,11 @@ section h1{
     background-color: transparent;
     width: 40px;
     height: 40px;
+    color: gray;
 }
 .arrows i:hover{
-    background-color: rgba(61, 52, 52, 0.621);
     border: 5px solid white;
+    color: white;
 }
 .catalog{
     display: flex;
