@@ -191,6 +191,7 @@ section h1{
     height: 40px;
 }
 .arrows i:hover{
+    background-color: rgba(61, 52, 52, 0.621);
     border: 5px solid white;
 }
 .catalog{
@@ -251,9 +252,7 @@ section h1{
     }
     
     .caption{
-        display: inline-block;
-        text-align: center;
-        width: 150%;
+        display: none;
     }
     .typeserial{
         width: 150%;
@@ -269,6 +268,9 @@ section h1{
         width: 150%;
         display: flex;
         justify-content: space-around;
+    }
+    .buttonred{
+        margin-bottom: 10px;
     }
     .iconbutton{
         flex-wrap: wrap;
