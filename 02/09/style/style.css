@@ -1,0 +1,218 @@
+*{
+   box-sizing: border-box;
+}
+                       /* Стилі шрифтів */
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  body{
+    color: white;
+    background-color: rgb(36, 37, 42);
+  }
+              /* Стилізація навігаційної частини сторінки */
+  header{
+    padding: 43px 94px 172px 59px;
+    width: 88.42%;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 22px;
+  }
+  header h2:hover{
+    color: rgba(255, 146, 44, 0.78);
+  }
+  header input{
+    font-size: 22px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 37px;
+    padding-bottom: 5px;
+    background-color: rgba(255, 249, 240, 0.1);
+  }
+  section{
+    width: 54,23%;
+    padding-left: 111px;
+    padding-right: 494px;
+    padding-bottom: 27px;
+  }
+  .caption{
+    display: inline-flex;
+    align-items: flex-end;
+
+  }
+  .oneblock{
+    font-size: 125px;
+  }
+  .twoblock{
+    font-size: 52px;
+    color: rgba(255, 146, 44, 0.78);
+  }
+  .tekst{
+    font-size: 22px;
+    color: rgb(144, 144, 144);
+  }
+                     /* Стилізація меню */
+  .menu{
+    display: grid;
+    grid-template-columns: 151px 151px 151px;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding-left: 325px;
+    font-size: 14px;
+}
+.menu img{
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+}
+.breakfast:hover{
+    color: rgba(255, 146, 44, 0.78);
+    filter: drop-shadow(0 0 15px rgba(255, 146, 44, 0.78));
+}
+.lunch:hover{
+    color: rgba(255, 146, 44, 0.78);
+    filter: drop-shadow(0 0 15px rgba(255, 146, 44, 0.78));
+}
+.dinner:hover{
+    color: rgba(255, 146, 44, 0.78);
+    filter: drop-shadow(0 0 15px rgba(255, 146, 44, 0.78));
+}
+                 /* Стилізація ігрідієнтів */
+.container{
+  display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: end;
+    padding-top: 9px;
+    width: 46.89%;
+    padding-left: 114px;
+}
+.dish-details{
+  grid-column:1/-1;
+  font-size: 32px;
+}
+.ingredients{
+  font-size: 14px;
+  padding-left: 20px;
+}
+.info{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 67px;
+  font-size: 18px;
+}
+.info-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info h4{
+  padding-bottom: 8px;
+}
+span{
+    font-size: 14px;
+    color:rgba(255, 146, 44, 0.78) ;
+}
+                     /* Стилізація Footera */
+.designer{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+}
+.rating{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 77px;
+  padding-top: 16px;
+}
+.img-rating{
+  display: flex;
+  align-items: center;
+}
+.grey{
+  padding-right: 36px;
+  color: rgba(170, 167, 167, 0.46);
+}
+              /* Адаптивний дизайн под смартфони */
+@media (max-width: 435px){
+  header{
+  padding: 1.2rem;
+   width: 95%;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   font-size: 1.2rem;
+}
+  input{
+    margin-top: 50px;
+    width: 95%;
+    padding-top: 5px;
+  }
+  section{
+    width: 70%;
+    padding: 1.2rem;
+  }
+ .oneblock{
+  padding-top: 2rem;
+  font-size: 5rem;
+ }
+ .twoblock{
+  font-size: 2.4rem;
+ }
+ .tekst{
+  font-size: 1rem;
+ }
+ .menu{
+  padding: 1.2rem;
+  display: inline-flex;
+  justify-content: space-between;
+ }
+ .menu img{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+} 
+.container{
+  padding: 1.2rem;
+}
+.dish-details{
+  font-size: 1.5rem;
+}
+.ingredients{
+  font-size: 0.7rem;
+}
+.info{
+  font-size: 0.7rem;
+  grid-column-gap: 2rem;
+}
+footer{
+  padding:1.2rem;
+}
+.designer{
+  font-size: 2rem;
+}
+.rating{
+  width: 100%;
+  padding: 1.2rem;
+  justify-content: space-around;
+}
+}
