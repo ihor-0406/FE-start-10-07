@@ -167,40 +167,48 @@ section h1{
     background-color: red;
 }
 .box{
-    display: inline-flex;
+    display:flex;
     justify-content: space-between;
-    width: 54.51%;
+    align-items: center;
+    width: 52.51%;
     color: white;
     font-size: 22px;
     padding-top: 54px;
+
 }
 .arrows{
-    display: inline-flex;
-    justify-content: space-between;
-    flex-basis: 110px;
+    display:flex;
     align-items: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
     
+}
+.arrows div{
+    padding-right: 10px;
 }
 .arrows i {
     display: inline-flex;
     align-items: center;
-    padding: 12px 12px ;
+    padding: 20px 15px ;
     border: 3px solid gray;
     border-radius: 30px;
     background-color: transparent;
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
 }
 .arrows i:hover{
     border: 5px solid white;
 }
 .catalog{
     display: flex;
+    width: 54.51%;
     padding-top: 32px;
+    justify-content: space-between;
 }
 .film{
-    width: 20%;
-    margin-right: 50px;
+    width: 18%;
+    /* margin-right: 50px; */
 }
 .film i{
     display: inline-block;
