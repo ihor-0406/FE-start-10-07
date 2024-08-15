@@ -216,6 +216,7 @@ section h1{
 }
 .film:hover{
     border: 5px solid white;
+    transform: scale(1.5);
 }
 .ratiogblock{
     position: fixed;

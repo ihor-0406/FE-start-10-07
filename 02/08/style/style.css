@@ -165,20 +165,23 @@ section h1{
     background-color: red;
 }
 .box{
-    display: inline-flex;
+    display:flex;
     justify-content: space-between;
-    width: 54.51%;
+    align-items: center;
+    width: 52.51%;
     color: white;
     font-size: 22px;
     padding-top: 54px;
-    /* padding-left: 45px; */
 }
 .arrows{
-    display: inline-flex;
-    justify-content: space-between;
-    flex-basis: 110px;
+    display:flex;
     align-items: center;
-    
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.arrows div{
+    padding-right: 10px;
 }
 .arrows i {
     display: inline-flex;
@@ -197,11 +200,13 @@ section h1{
 }
 .catalog{
     display: flex;
+    width: 54.51%;
     padding-top: 32px;
+    justify-content: space-between;
 }
 .film{
-    width: 20%;
-    margin-right: 50px;
+    width: 18%;
+    /* margin-right: 50px; */
 }
 .film i{
     display: inline-block;
@@ -209,6 +214,7 @@ section h1{
 }
 .film:hover{
     border: 5px solid white;
+    transform: scale(1.5);
 }
 .ratiogblock{
     position: fixed;
@@ -280,11 +286,11 @@ section h1{
     }
     .box{
         font-size:1.5rem;
-        width: 140%;
+        width: 120%;
         justify-content: space-between;
     }
     .catalog{
-        width: 150%;
+        width: 140%;
         display: inline-flex;
         flex-wrap: wrap;
         align-items: flex-start;
