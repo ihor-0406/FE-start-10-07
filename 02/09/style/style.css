@@ -26,12 +26,14 @@
   header{
     padding: 43px 94px 172px 59px;
     width: 88.42%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 22px;
   }
   header h2:hover{
     color: rgba(255, 146, 44, 0.78);
+    transform: scale(1.2);
   }
   header input{
     font-size: 22px;
@@ -66,11 +68,12 @@
                      /* Стилізація меню */
   .menu{
     display: grid;
-    grid-template-columns: 151px 151px 151px;
+    grid-template-columns: 15% 15% 15%;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
-    padding-left: 325px;
+    margin: 0 auto;
+    /* padding-left: 325px; */
     font-size: 14px;
 }
 .menu img{
@@ -81,14 +84,17 @@
 .breakfast:hover{
     color: rgba(255, 146, 44, 0.78);
     filter: drop-shadow(0 0 15px rgba(255, 146, 44, 0.78));
+    transform: scale(1.2);
 }
 .lunch:hover{
     color: rgba(255, 146, 44, 0.78);
     filter: drop-shadow(0 0 15px rgba(255, 146, 44, 0.78));
+    transform: scale(1.2);
 }
 .dinner:hover{
     color: rgba(255, 146, 44, 0.78);
     filter: drop-shadow(0 0 15px rgba(255, 146, 44, 0.78));
+    transform: scale(1.2);
 }
                  /* Стилізація ігрідієнтів */
 .container{
@@ -186,6 +192,7 @@ span{
   display: inline-flex;
   justify-content: space-between;
  }
+
  .menu img{
   width: 110px;
   height: 110px;
