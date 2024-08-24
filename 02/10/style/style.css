@@ -1,0 +1,104 @@
+html{
+    scroll-behavior: smooth;
+}
+    .noto-sans-medium {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .noto-sans-jp-medium {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  body{
+    margin:0 auto;
+  }
+header{
+    background-color: rgb(102, 142, 104);
+}
+.caption{
+    font-weight:100 ;
+    font-size: 2,75rem;
+}
+.background{
+    background-image: url(..//image/coffee\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section div h1{
+    font-size: 6.5rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+section h2{
+    font-size: 40px;
+}
+.menu-circle{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2.5rem;
+    bottom: 5px;
+}
+.menu-circle h3:hover{
+    transform: scale(1.2);
+}
+.menu{
+    border: 10px solid rgb(129, 97, 59);
+}
+.button{
+    margin-top: 3rem;
+    color: white;
+    background-color: rgb(102, 142, 104);
+    font-size: 1rem;
+}
+.button:hover{
+    transform: scale(1.2);
+}
+.background-two{
+    background-image: url(..//image/cafe\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-background{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.newssection{
+    background-color: rgba(129, 97, 59, 0.2);
+}
+.triangle{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(102, 142, 104);
+    right: 0.5rem;
+    bottom: 0.7rem;
+}
+.icon-triangle{
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: 1rem solid rgb(255, 255, 255);
+    bottom: 10px;
+    right: 7px;
+}
+@media (max-width: 435px){
+    section div h1{
+        font-size: 2.5rem;
+        padding-bottom: 141px;
+    }
+    
+}
