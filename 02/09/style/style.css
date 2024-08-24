@@ -21,6 +21,7 @@
   body{
     color: white;
     background-color: rgb(36, 37, 42);
+    margin: 0 auto;
   }
               /* Стилізація навігаційної частини сторінки */
   header{
