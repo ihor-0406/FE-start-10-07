@@ -44,17 +44,40 @@ section div h1{
 section h2{
     font-size: 40px;
 }
-.menu-circle{
-    width: 20%;
+.menu-item{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem auto;
+    border-radius: 50%;
+    overflow: hidden;
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 2.5rem;
-    bottom: 5px;
-}
-.menu-circle h3:hover{
-    transform: scale(1.2);
+    box-shadow: 0 0 0 7px rgb(129, 97, 59);
+    z-index: 1000;
 }
 .menu{
-    border: 10px solid rgb(129, 97, 59);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:50% ;
+}
+.menu-circle{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    color: #000000;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.menu-title{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.menu-title:hover{
+    transform: scale(1.2);
 }
 .button{
     margin-top: 3rem;
