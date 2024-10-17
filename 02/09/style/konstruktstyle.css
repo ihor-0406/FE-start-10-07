@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-image: url(..//image/bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    
+}

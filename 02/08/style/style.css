@@ -204,9 +204,13 @@ section h1{
     padding-top: 32px;
     justify-content: space-between;
 }
+.caption.film{
+    
+    display: none;
+}
 .film{
     width: 18%;
-    /* margin-right: 50px; */
+    
 }
 .film i{
     display: inline-block;
